@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    height: 140%;
+    width: 100%;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 50px 60px;
+    justify-content: center;
+
+}
+
+#nav h5{
+    font-size: 20px;
+    font-family:aeonik;
+    border: 3px solid #fff;
+    padding: 5px 9px;
+    border-radius: 60px;
+    margin: 0 7px;
+    font-weight:500 ;
+}
+
+h5:hover{
+    background-color: aqua;
+}
+
+#center{
+    height: calc(100% - 100px);
+    width: 100%;
+    position: relative;
+    padding: 10px 100;
+
+}
+#center h1{
+    font-size: 110px;
+    font-family:aeonik ;
+    text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    white-space: nowrap;
+    font-weight: 900;
+    font-style: italic;
+    transform: translate(-50%,0);
+}
+#center h2{
+    font-size: 60px;
+    font-family:aeonik ;
+    text-align: center;
+    
+}
+#image{
+    top:40%;
+    height: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    border-radius: 50%;
+
+    border: 2px solid black;
+    position: absolute;
+
+
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+    object-position: bottom 60%;
+    
+    
+}
+button{
+    padding: 17px 36px;
+    font-size: 15px;
+    background-color: rgb(228, 39, 140);
+    border-color: black;
+    text-transform: uppercase;
+    font-family: aeonic;
+    border-radius: 50%;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    transform:rotate(-5deg ) ;
+
+}
+
+.pic{
+    border-bottom: 10px;
+    width:100%;
+    height:97%;
+    
+
+}
+h4{color:black;
+    font-size: 47px;
+    border-style: double;
+    border-radius: 10px 10px;
+    padding-top:3px;
+    padding-right: 321px;
+    width:221px;
+    padding-left: 83px;
+    
+}
+/* .............................................website........................ */
+.classmen{
+    display: flex;
+    row-gap: 10px;
+    padding-top: 20px;
+    column-gap: 138px;
+}
+.classmen:hover{
+    color: black;
+    transform: scaleY(1.5);
+}
+.classwomen:hover{
+    color: black;
+    transform: scaleY(1.5);
+}
+p:hover{
+    color: chartreuse;
+    transform: scaleX(1);
+}
+
+
+
+
+
+
+
+.pic1{
+    
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+    
+}.pic2{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+    
+}.pic3{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}.pic4{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}
+
+
+.classwomen{
+    display: flex;
+    row-gap: 10px;
+    padding-top: 20px;
+    column-gap: 138px;
+}
+
+.pic5{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}.pic6{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}.pic7{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}.pic8{
+    width: 174px;
+    height: 231px;
+    border-style: double;
+    border-radius: 10px 0px;
+}
+p{
+    font-size: 67px;
+    padding: 56px;
+    padding-top: 104px;
+}
+
+h5{
+    color:black;
+    border-style: double;
+    border-radius: 10px 10px;
+    padding-top:81px;
+    padding-right: 416px;
+    width:100%;
+    padding-left: 288px;
+    padding-bottom: 10px;
+
+}
+
+
+
+
+
